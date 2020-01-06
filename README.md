@@ -7,3 +7,11 @@ label.font = UIFont.boldSystemFont(ofSize: 50)
 label.textAlignment = .center
 label.text = "WINTER"
 ```
+
+# ImagedTextField
+Using of textured text inside UITextField
+```Swift
+let input = ImagedTextField(frame: CGRect(x: 20, y: 50, width: 300, height: 80))
+input.font = UIFont.boldSystemFont(ofSize: 50)
+input.image = UIImage(named: "marble")
+```
