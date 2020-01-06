@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60A20F723C2D29800BCE4F8 /* ImagedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A20F623C2D29800BCE4F8 /* ImagedTextField.swift */; };
 		D6B2437D23C1F74B00207F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B2437C23C1F74B00207F98 /* AppDelegate.swift */; };
 		D6B2437F23C1F74B00207F98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B2437E23C1F74B00207F98 /* ViewController.swift */; };
 		D6B2438223C1F74B00207F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B2438023C1F74B00207F98 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D60A20F623C2D29800BCE4F8 /* ImagedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagedTextField.swift; sourceTree = "<group>"; };
 		D6B2437923C1F74B00207F98 /* ImagedTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagedTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B2437C23C1F74B00207F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B2437E23C1F74B00207F98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D6B2438F23C1F77E00207F98 /* ImagedTextLabel.swift */,
+				D60A20F623C2D29800BCE4F8 /* ImagedTextField.swift */,
 			);
 			path = ImagedText;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60A20F723C2D29800BCE4F8 /* ImagedTextField.swift in Sources */,
 				D6B2437F23C1F74B00207F98 /* ViewController.swift in Sources */,
 				D6B2437D23C1F74B00207F98 /* AppDelegate.swift in Sources */,
 				D6B2439023C1F77E00207F98 /* ImagedTextLabel.swift in Sources */,
@@ -297,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QVDV2N2SB;
 				INFOPLIST_FILE = ImagedTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QVDV2N2SB;
 				INFOPLIST_FILE = ImagedTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

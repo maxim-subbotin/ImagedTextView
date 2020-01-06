@@ -61,7 +61,6 @@ class ImagedTextLabel: UIImageView {
         label.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
         
         label.textAlignment = .center
-        label.text = "TEXT"
         
         self.mask = label
     }
@@ -69,7 +68,6 @@ class ImagedTextLabel: UIImageView {
     override func layoutSubviews() {
         super.layoutSubviews()
         label.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
-        print("s")
     }
     
     override func draw(_ rect: CGRect) {
